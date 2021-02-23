@@ -320,7 +320,7 @@ $card-border-width: $border-width !default;
 $card-border-color: $border-color-transparent !default;
 $card-border-radius: $border-radius !default;
 
-$card-cap-bg: $light !default;
+$card-cap-bg: $white !default;
 $card-cap-color: $text-muted !default;
 $card-cap-padding-x: 1rem !default;
 $card-cap-padding-y: .75rem !default;
@@ -360,6 +360,8 @@ $dropdown-link-hover-color: inherit !default;
 $dropdown-spacer: 1px !default;
 $dropdown-min-width: 11rem !default;
 $dropdown-max-width: 25rem !default;
+
+$dropdown-scrollable-height: 13rem !default;
 
 $dropdown-link-active-color: $primary !default;
 $dropdown-link-active-bg: $active-bg !default;
@@ -507,7 +509,8 @@ $list-group-action-color: inherit !default;
 $list-group-bg: inherit !default;
 
 $input-disabled-bg: $gray-100 !default;
-$input-border-color: $border-color-dark-transparent !default;
+$input-border-color: $border-color-dark !default;
+$input-border-color-transparent: $border-color-dark-transparent !default;
 $input-placeholder-color: $text-muted-light !default;
 
 $input-group-addon-bg: $light !default;
@@ -521,7 +524,7 @@ $form-check-margin-bottom: .5rem !default;
 $form-check-input-width: 1rem !default;
 $form-check-padding-start: $form-check-input-width + .5rem !default;
 $form-check-input-bg: $white !default;
-$form-check-input-border: 1px solid $border-color-dark-transparent !default;
+$form-check-input-border: 1px solid $input-border-color-transparent !default;
 $form-check-input-border-radius: $border-radius !default;
 $form-check-input-checked-bg-size: 1rem !default;
 
@@ -531,7 +534,7 @@ $form-check-input-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://w
 $form-check-input-checked-bg-image-dark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'><path fill='none' stroke='#{$dark}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8.5l2.5 2.5l5.5 -5.5'/></svg>") !default;
 $form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle r='3' fill='#{$form-check-input-checked-color}' cx='8' cy='8' /></svg>") !default;
 
-$form-check-input-checked-border-color: $border-color-dark-transparent !default;
+$form-check-input-checked-border-color: $input-border-color-transparent !default;
 
 $form-check-label-disabled-opacity: $text-muted-opacity;
 
